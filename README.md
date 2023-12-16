@@ -15,12 +15,12 @@ Let's break down this regex and understand each component.
 
 ## Table of Contents
 
-1. [Start of the Line ^](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#start-of-the-line)
-2. [Username Part ([a-zA-Z0-9._-]+)](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#username-part)
-3. [Email Domain Part @([a-zA-Z0-9.-]+)](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#email-domain-part)
+1. [Start of the Line ^](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#start-of-the-line-)
+2. [Username Part ([a-zA-Z0-9._-]+)](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#user-part-a-za-z0-9_-)
+3. [Email Domain Part @([a-zA-Z0-9.-]+)](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#email-domain-part-a-za-z0-9-)
 4. [Top-Level Domain Part .([a-zA-Z]{2,6})$](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#top-level-domain-part)
-5. [End of the Line $](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#end-of-the-line)
-6. [About the Author](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#about-the-author)
+5. [End of the Line $](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#end-of-the-line-)
+6. [About the Author](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#about-the-author)
 ## Start of the Line `^`
 
 The `^` asserts the start of the line. In our regex, it ensures that the pattern starts from the beginning of the string. 

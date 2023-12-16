@@ -42,3 +42,9 @@ This part represents the top-level domain of the email address. It starts with a
 ## End of the Line `$`
 
 Similar to the caret, the dollar sign `$` asserts the end of the line. It ensures the pattern reaches the end of the string. 
+
+## About the Author 
+
+This tutorial is brought to you by [Your Name], a passionate web developer. If you enjoyed this tutorial, check out more of my projects on [Github](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions).
+
+Happy regex coding!!

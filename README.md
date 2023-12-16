@@ -21,3 +21,12 @@ Let's break down this regex and understand each component.
 4. [Top-Level Domain Part \.([a-zA-Z]{2,6})$](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#top-level-domain-part)
 5. [End of the Line $](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#end-of-the-line)
 6. [About the Author](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#about-the-author)
+
+## Start of the Line `^`
+
+The `^` asserts the start of the line. In our regex, it ensures that the pattern starts from the beginning of the string. 
+
+
+## User Part `([a-zA-Z0-9._-]+)`
+
+This section defines the username part of the email address. It allows for a combination of uppercase and lowercase letters, numbers, and specific characters like dot (.), underscore (_), and hyphen(-). 

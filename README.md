@@ -30,3 +30,15 @@ The `^` asserts the start of the line. In our regex, it ensures that the pattern
 ## User Part `([a-zA-Z0-9._-]+)`
 
 This section defines the username part of the email address. It allows for a combination of uppercase and lowercase letters, numbers, and specific characters like dot (.), underscore (_), and hyphen(-). 
+
+## Email Domain Part `@([a-zA-Z0-9.-]+)`
+
+The `@` symbol separates the username from the domain. this section allows for the domain name, including uppercase and lowercase letters, numbers, dots (.), and hyphens (-).
+
+## Top-Level Domain Part `\.([a-zA-Z]{2,6})$`
+
+This part represents the top-level domain of the email address. It starts with a dort (`\.`) and is followed by 2 to 6 letters (e.g., com, org, net).
+
+## End of the Line `$`
+
+Similar to the caret, the dollar sign `$` asserts the end of the line. It ensures the pattern reaches the end of the string. 

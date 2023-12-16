@@ -7,12 +7,11 @@ Welcome, fellow web development enthusiasts! In this tutorial, we will embark on
 
 ## Regex Overview 
 
-Regular expressions are sequences of characters that define a search pattern. They are incredibly powerful tools for string manipulation, validation, and extraction. the regex we'll be exploring focuses on a common use case, such as validating email addresses or extracting specific information from a text block.
+Regular expressions are sequences of characters that define a search pattern. They are incredibly powerful tools for string manipulation, validation, and extraction. The regex we'll be exploring focuses on a common use case, such as validating email addresses or extracting specific information from a text block.
 
 /^([a-zA-Z0-9._-]+)@([a-zA-Z0-9.-]+)\.([a-zA-Z]{2,6})$/
 
-Let's break down this regex and understand each component.
-
+Let's take a visual journey through the email regex pattern to understand how it validates an email address.
 ## Table of Contents
 
 1. [Start of the Line ^](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#start-of-the-line-)
@@ -44,6 +43,6 @@ Similar to the caret, the dollar sign `$` asserts the end of the line. It ensure
 
 ## About the Author 
 
-This tutorial is brought to you by [Your Name], a passionate web developer. If you enjoyed this tutorial, check out more of my projects on [Github](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions).
+This regex tutorial is brought to you by Devon Whitaker, a passionate web developer. If you enjoyed this tutorial, check out more of my projects on [Github](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions).
 
 Happy regex coding!!

@@ -15,13 +15,12 @@ Let's break down this regex and understand each component.
 
 ## Table of Contents
 
-1. [Start of the Line ^](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#start-of-the-line)
-2. [Username Part ([a-zA-Z0-9._-]+)](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#username-part)
-3. [Email Domain Part @([a-zA-Z0-9.-]+)](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#email-domain-part)
-4. [Top-Level Domain Part \.([a-zA-Z]{2,6})$](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#top-level-domain-part)
-5. [End of the Line $](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#end-of-the-line)
-6. [About the Author](https://chat.openai.com/c/4650f0b1-991c-419a-91ca-03d24fd462e1#about-the-author)
-
+1. [Start of the Line ^](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#start-of-the-line)
+2. [Username Part ([a-zA-Z0-9._-]+)](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#username-part)
+3. [Email Domain Part @([a-zA-Z0-9.-]+)](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#email-domain-part)
+4. [Top-Level Domain Part .([a-zA-Z]{2,6})$](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#top-level-domain-part)
+5. [End of the Line $](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#end-of-the-line)
+6. [About the Author](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#about-the-author)
 ## Start of the Line `^`
 
 The `^` asserts the start of the line. In our regex, it ensures that the pattern starts from the beginning of the string. 

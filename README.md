@@ -20,6 +20,7 @@ Let's take a visual journey through the email regex pattern to understand how it
 4. [Top-Level Domain Part .([a-zA-Z]{2,6})$](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions#top-level-domain-part)
 5. [End of the Line $](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#end-of-the-line-)
 6. [About the Author](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#about-the-author)
+7. [Example](https://github.com/Devon2731/JavaScript-Regex-Tutorial-Demystifying-the-Power-of-Regular-Expressions?tab=readme-ov-file#example)
 ## Start of the Line `^`
 
 The `^` asserts the start of the line. In our regex, it ensures that the pattern starts from the beginning of the string. 
@@ -40,6 +41,14 @@ This part represents the top-level domain of the email address. It starts with a
 ## End of the Line `$`
 
 Similar to the caret, the dollar sign `$` asserts the end of the line. It ensures the pattern reaches the end of the string. 
+
+## Example:
+
+Consider the email address `user@example.com`:
+
+1. Username: `user`
+2. Email Domain: `example`
+3. Top-Level Domain:`com`
 
 ## About the Author 
 

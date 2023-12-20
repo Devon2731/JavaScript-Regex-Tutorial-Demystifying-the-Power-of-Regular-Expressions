@@ -39,9 +39,9 @@ Consider the regex pattern /^Hello/. This pattern uses the caret to assert that 
 
 1. `/^Hello/` matches:
 
--"Hello, world!" (at the start of the string).
+- "Hello, world!" (at the start of the string).
 
--"Hello there" (at the start of the string).
+- "Hello there" (at the start of the string).
 
 2. `/^Hello/` does not match:
 

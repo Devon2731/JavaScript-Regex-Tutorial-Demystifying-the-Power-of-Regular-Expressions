@@ -192,6 +192,18 @@ For the email address john.doe@example.com, the "Top-Level Domain Part" matches 
 
 Similar to the caret, the dollar sign `$` asserts the end of the line. It ensures the pattern reaches the end of the string. 
 
+Key Points:
+1. Dollar Sign (`$`):
+  - The dollar sign is a literal character in the regex pattern and serves as an anchor that asserts the end of the line or string.
+- Explanation:
+  - The "End of the Line" `$` ensures that the entire regex pattern matches from the start of the string (`^`) all the way to the end of the string (`$`). Here's its role:
+
+- String Termination:
+  - The dollar sign (`$`) marks the end of the regex pattern, ensuring that the pattern must match the entire string, not just a part of it.
+
+- Example:
+  - Consider the email regex `/^([a-zA-Z0-9._-]+)@([a-zA-Z0-9.-]+)\.([a-zA-Z]{2,6})$/`. The `$` ensures that the email address is validated completely, from the username to the top-level domain, without any extraneous characters before or after.
+
 ## Example:
 
 Consider the email address `user@example.com`:

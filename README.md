@@ -148,6 +148,46 @@ Example:
 
 This part represents the top-level domain of the email address. It starts with a dort (`\.`) and is followed by 2 to 6 letters (e.g., com, org, net).
 
+Key Components:
+
+1. The Dot (.):
+
+  - The dot (`\.`) is a literal character in the regex pattern and serves as a separator between the domain name and the top-level domain.
+
+2. Square Brackets (`[]`):
+
+  - Another character class is defined inside square brackets, specifying a set of characters for the top-level domain.
+
+3. Character Range (`a-zA-Z`):
+
+  - This character range allows for both lowercase and uppercase letters in the top-level domain.
+
+4. Quantifier (`{2,6}`):
+
+  - The `{2,6}` quantifier specifies that the preceding character class must match between 2 and 6 characters.
+
+5. Dollar Sign (`$`):
+
+- The dollar sign anchors the regex pattern to the end of the string, ensuring that the top-level domain is the last part of the email address.
+
+Explanation:
+The "Top-Level Domain Part" \.([a-zA-Z]{2,6})$ specifies the accepted characters for the top-level domain in an email address. Here's what it allows:
+
+- Dot Separator (.):
+
+   - The dot (\.) ensures that there is a period separating the domain name and the top-level domain.
+Uppercase and Lowercase Letters:
+
+  - The inclusion of a-z and A-Z caters to both lowercase and uppercase letters in the top-level domain.
+
+- Quantifier for Length Control:
+
+  - The {2,6} quantifier ensures that the top-level domain must consist of 2 to 6 characters. This prevents overly short or excessively long TLDs.
+
+Example:
+
+For the email address john.doe@example.com, the "Top-Level Domain Part" matches the string com, as it includes lowercase letters and is exactly 3 characters long
+
 ## End of the Line `$`
 
 Similar to the caret, the dollar sign `$` asserts the end of the line. It ensures the pattern reaches the end of the string. 

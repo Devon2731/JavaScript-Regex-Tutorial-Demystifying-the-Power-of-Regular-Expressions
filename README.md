@@ -54,6 +54,46 @@ Consider the regex pattern /^Hello/. This pattern uses the caret to assert that 
 
 This section defines the username part of the email address. It allows for a combination of uppercase and lowercase letters, numbers, and specific characters like dot (.), underscore (_), and hyphen(-). 
 
+Key Components:
+1. Square Brackets (`[]`):
+
+Inside square brackets, a character class is defined. It specifies a set of characters that the regex engine will match against.
+
+2. Character Range (`a-zA-Z0-9._-`):
+
+This character range encompasses a variety of characters:
+   - `a-z`: Lowercase letters
+   -`A-Z`: Uppercase letters
+   -`0-9`: Numbers
+   -`._-`: Specific characters dot (`.`), underscore (`_`), and hyphen (`-`)
+3. Quantifier (`+`):
+
+  -The `+` quantifier means "one or more." It allows the character class to match a sequence of one or more characters.
+
+Explanation:
+
+The "Username Part" `[a-zA-Z0-9._-]+` defines the acceptable characters for the username section of an email address. Here's what it allows:
+
+- Uppercase and Lowercase Letters:
+
+    - The inclusion of `a-z` and `A-Z` allows for both uppercase and lowercase letters.
+
+- Numbers:
+
+    - The range `0-9` permits the inclusion of numbers in the username.
+
+- Specific Characters:
+
+    - The characters `._-` allow the use of a dot (`.`), underscore (`_`), and hyphen (`-`) in the username.
+
+- Combination of Characters:
+
+     - The `+` quantifier ensures that the username can consist of one or more of the specified characters. It prevents an empty or invalid username.
+
+Example:
+
+For the email address john_doe123@example.com, the "Username Part" matches the string john_doe123, as it includes lowercase letters, an underscore, and numbers, all of which fall within the defined character range.
+
 ## Email Domain Part `@([a-zA-Z0-9.-]+)`
 
 The `@` symbol separates the username from the domain. this section allows for the domain name, including uppercase and lowercase letters, numbers, dots (.), and hyphens (-).

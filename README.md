@@ -98,6 +98,52 @@ For the email address john_doe123@example.com, the "Username Part" matches the s
 
 The `@` symbol separates the username from the domain. this section allows for the domain name, including uppercase and lowercase letters, numbers, dots (.), and hyphens (-).
 
+Key Components:
+
+1. The At Symbol (@):
+
+      -The at symbol (`@`) is a literal character in the regex pattern and serves as the delimiter that separates the username part from the domain part in an email address.
+
+2. Square Brackets (`[]`):
+
+      -Similar to the "Username Part," a character class is defined inside square brackets, specifying a set of characters for the domain.
+
+3. Character Range (`a-zA-Z0-9.-`):
+
+    -This character range allows for a variety of characters in the domain:
+      - `a-z: Lowercase letters
+      - `A-Z`: Uppercase letters
+      - `0-9`: Numbers
+      - ` .-`: Specific characters dot (.) and hyphen (-)
+   
+
+4. Quantifier (+):
+
+   - The `+` quantifier means "one or more," indicating that the character class can match a sequence of one or more characters.
+
+Explanation:
+The "Email Domain Part" `@([a-zA-Z0-9.-]+)` specifies the accepted characters for the domain name in an email address. Here's what it allows:
+
+- Uppercase and Lowercase Letters:
+
+   - The inclusion of a-z and A-Z caters to both lowercase and uppercase letters.
+
+- Numbers:
+
+  - The range 0-9 permits the inclusion of numbers in the domain name.
+
+- Specific Characters:
+
+  - The characters .- allow the use of a dot (.) and hyphen (-) in the domain name.
+
+Combination of Characters:
+
+  - The + quantifier ensures that the domain name can consist of one or more of the specified characters. This prevents an empty or invalid domain name.
+
+Example:
+
+  - For the email address john.doe@example.com, the "Email Domain Part" matches the string example, as it includes lowercase letters and a dot, all of which fall within the defined character range.
+
 ## Top-Level Domain Part `\.([a-zA-Z]{2,6})$`
 
 This part represents the top-level domain of the email address. It starts with a dort (`\.`) and is followed by 2 to 6 letters (e.g., com, org, net).
